@@ -21,6 +21,7 @@
         <java.version>1.8</java.version>
     </properties>
 
+    <!-- 查询依赖并添加,需要使用网址: https://mvnrepository.com/ 在该网站查询到指定的包,然后选择指定版本,把对应的配置考入pom.xml即可 -->
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -69,6 +70,12 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>27.0.1-jre</version>
         </dependency>
 
         <dependency>

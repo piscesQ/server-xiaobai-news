@@ -3,6 +3,11 @@
 ### 学习教程
 0、[社区 Spring Boot 从入门到进阶系列教程 | Spring For All](http://www.spring4all.com/article/246)  
 
+### 常用依赖介绍
+1、lombok：[十分钟搞懂Lombok使用与原理](https://juejin.im/post/5a6eceb8f265da3e467555fe)  
+2、commons-lang3：[Commons.lang 工具 - 后端](https://juejin.im/entry/58abf87dac502e00697aab6d)
+3、guava：[Spring Boot 揭秘与实战（二） 数据缓存篇 - Guava Cache](https://juejin.im/post/586e43a6128fe100583f672e)    
+
 
 ### 遇到问题
 1、application.properties 配置中文值的时候，读取出来的属性值会出现乱码问题。但是 application.yml 不会出现乱码问题。原因是，Spring Boot 是以 iso-8859 的编码方式读取 application.properties 配置文件。  
