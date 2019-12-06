@@ -11,7 +11,7 @@
     <!-- 项目说明：这里作为聚合工程的父工程 -->
     <groupId>com.qingdu.xiaobai.news</groupId>
     <artifactId>server-xiaobai-news</artifactId>
-    <version>${xiaobai.version}</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <!-- 继承说明：这里继承SpringBoot提供的父工程 -->
     <parent>
@@ -34,6 +34,7 @@
         <module>xiaobai-service</module>
         <module>xiaobai-repo</module>
         <module>xiaobai-entity</module>
+        <module>xiaobai-commlib</module>
     </modules>
 
     <repositories>
@@ -73,6 +74,11 @@
             <dependency>
                 <groupId>com.qingdu.xiaobai.news</groupId>
                 <artifactId>xiaobai-entity</artifactId>
+                <version>${xiaobai.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.qingdu.xiaobai.news</groupId>
+                <artifactId>xiaobai-commlib</artifactId>
                 <version>${xiaobai.version}</version>
             </dependency>
 

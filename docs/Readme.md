@@ -8,7 +8,7 @@ xiaobai-web: 控制层
 xiaobai-service: 业务层
 xiaobai-repo: 数据层
 xiaobai-entity: 实体模型层
-
+xiaobai-commlib: 通用工具库
 
 ### 学习教程
 0、[社区 Spring Boot 从入门到进阶系列教程 | Spring For All](http://www.spring4all.com/article/246)  
@@ -36,6 +36,7 @@ xiaobai-entity: 实体模型层
 ### 开源工程链接
 1、[ityouknow/spring-boot-examples - Spring Boot 教程、技术栈示例代码，快速简单上手教程。](https://github.com/ityouknow/spring-boot-examples)  
 2、[springboot-learning-example: spring boot 实践学习案例](https://gitee.com/jeff1993/springboot-learning-example)
+3、[yizhiwazi/springboot-socks: SpringBoot 基础教程 | 从入门到上瘾 | 基于2.0.0.M5制作](https://github.com/yizhiwazi/springboot-socks)
 
 
 ### IDEA插件

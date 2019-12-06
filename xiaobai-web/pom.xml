@@ -4,8 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>xiaobai-web</artifactId>
-    <name>xiaobai-news</name>
-    <description>Demo project for Spring Boot</description>
+    <name>xiaobai-web</name>
+    <packaging>jar</packaging>
+    <version>${xiaobai.version}</version>
+    <description>xiaobai-web controller layer</description>
 
     <!-- 继承说明：这里继承SpringBoot提供的父工程 -->
     <!-- 继承本项目的父工程 -->

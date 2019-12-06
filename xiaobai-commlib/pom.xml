@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!-- 基本信息 -->
-    <artifactId>xiaobai-service</artifactId>
-    <name>xiaobai-service</name>
+    <artifactId>xiaobai-commlib</artifactId>
+    <name>xiaobai-commlib</name>
     <packaging>jar</packaging>
     <version>${xiaobai.version}</version>
-    <description>xiaobai-service logic layer</description>
+    <description>xiaobai-commlib comm tools library</description>
 
     <!-- 继承本项目的父工程 -->
     <parent>
@@ -19,10 +19,7 @@
 
     <!-- Web模块相关依赖 -->
     <dependencies>
-        <dependency>
-            <groupId>com.qingdu.xiaobai.news</groupId>
-            <artifactId>xiaobai-repo</artifactId>
-        </dependency>
+
     </dependencies>
 
 </project>
